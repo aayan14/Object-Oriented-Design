@@ -1,0 +1,33 @@
+package ood_intro;
+
+public class first {
+
+	public static void main(String[] args) {
+		
+		Human human1 = new Human();
+		human1.age = 23;
+		human1.weight = 67;
+		
+		System.out.println("Age:" + human1.age);
+		System.out.println("Weight:" + human1.weight);
+		human1.eat();
+		human1.sleep();
+		
+	}
+}
+
+class Human{
+	
+	//properties
+	int age;
+	int weight;
+	
+	//behaviour
+	void sleep(){
+		System.out.println("Sleeping...");
+	}
+	
+	void eat(){
+		System.out.println("Eating...");
+	}
+}

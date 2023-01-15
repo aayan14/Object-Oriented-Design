@@ -1,0 +1,42 @@
+package ood_intro;
+
+public class second {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}
+
+class Person{
+	
+	
+	//properties
+	int age;
+	int weight;
+	
+	// constructor
+	public Person(int age, int weight){
+		
+		this.age = age;
+		this.weight = weight;
+		System.out.println("Inside Parameterized constructor");
+	}
+
+	
+	
+	//behaviour
+	void sleep(){
+		System.out.println("Sleeping...");
+	}
+	
+	void eat(){
+		System.out.println("Eating...");
+	}
+	
+	
+}
+
+class Male extends Person{
+	
+}

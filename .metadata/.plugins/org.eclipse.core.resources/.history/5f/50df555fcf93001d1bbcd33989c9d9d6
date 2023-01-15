@@ -1,0 +1,48 @@
+package ood_intro;
+
+public class first {
+
+	public static void main(String[] args) {
+		
+		Human human1 = new Human();
+		
+		
+		System.out.println("Age:" + human1.age);
+		System.out.println("Weight:" + human1.weight);
+		human1.eat();
+		human1.sleep();
+		
+	}
+}
+
+class Human{
+	
+	//properties
+	int age;
+	int weight;
+	
+	//No args constructor
+//	public Human(){
+//		age = 22;
+//		weight = 60;
+//		System.out.println("Inside constructor");
+//	}
+	
+	
+	//parameterized constructor
+	public Human(int age, int weight){
+		this.age = age;
+		this.weight = weight;
+		System.out.println("Inside Parameterized constructor");
+	}
+	
+	
+	//behaviour
+	void sleep(){
+		System.out.println("Sleeping...");
+	}
+	
+	void eat(){
+		System.out.println("Eating...");
+	}
+}

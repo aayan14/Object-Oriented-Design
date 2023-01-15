@@ -1,0 +1,112 @@
+package ood_intro;
+
+public class second {
+
+	public static void main(String[] args) {
+		
+//		Male male1 = new Male(23,65);
+//		System.out.println("Age: " + male1.age);
+//		System.out.println("Weight: " + male1.weight);
+//		male1.eat();
+//		male1.sleep();
+		
+		Scorpio newCar = new Scorpio("Black", 200, 4);
+		System.out.println("Color:" + newCar.color);
+		System.out.println("Weight:" + newCar.weight);
+		System.out.println("Rating:" + newCar.rating);
+		newCar.intro();
+		newCar.run();
+		newCar.stop();
+	}
+}
+
+class Person{
+	
+	
+	//properties
+	int age;
+	int weight;
+	
+	// constructor
+	public Person(int age, int weight){
+		
+		this.age = age;
+		this.weight = weight;
+		
+		
+	}
+
+	
+	
+	//behaviour
+	void sleep(){
+		System.out.println("Sleeping...");
+	}
+	
+	void eat(){
+		System.out.println("Eating...");
+	}
+	
+	
+}
+
+class Male extends Person{
+
+	public Male(int age, int weight) {
+		super(age, weight);
+		
+	}
+	
+}
+
+class Car{
+	String color;
+	int weight;
+	
+	public Car(String color, int weight){
+		this.color = color;
+		this.weight = weight;
+	}
+	void run(){
+		System.out.println("Running...");
+	}
+	
+	void stop(){
+		System.out.println("Stopped!!");
+	}
+}
+
+class Mahindra extends Car{
+	public Mahindra(String color, int weight, int rating) {
+		super(color, weight);
+		this.rating = rating;
+	}
+
+	int rating;
+	
+	void desc(){
+		System.out.println("This is Mahindra");
+	}
+}
+
+class Scorpio extends Mahindra{
+	
+	public Scorpio(String color, int weight, int rating) {
+		super(color, weight, rating);
+		// TODO Auto-generated constructor stub
+	}
+
+	void intro(){
+		System.out.println("This is Scorpio, by Mahindra");
+	}
+}
+
+class Employee{
+	
+	int id;
+	int expInYear;
+	
+	public Employee(int id, int expInYears){
+		this.id = id
+	}
+}

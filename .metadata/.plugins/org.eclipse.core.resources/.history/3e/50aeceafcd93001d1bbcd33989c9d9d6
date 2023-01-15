@@ -1,0 +1,21 @@
+package ood_intro;
+
+public class first {
+
+	public static void main(String[] args) {
+		System.out.println("Aayan");
+	}
+}
+
+class Human{
+	int age;
+	int weight;
+	
+	void sleep(){
+		System.out.println("Sleeping...");
+	}
+	
+	void eat(){
+		System.out.println("Eating...");
+	}
+}

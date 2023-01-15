@@ -1,0 +1,9 @@
+package ood_intro;
+
+public class first {
+	
+	private static void main(String args[]) {
+		// TODO Auto-generated method stub
+		System.out.println("Aayan");
+	}
+}
