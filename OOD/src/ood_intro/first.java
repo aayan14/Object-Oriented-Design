@@ -1,6 +1,6 @@
 package ood_intro;
 
-public class first {
+public class into{
 
 	public static void main(String[] args) {
 		
