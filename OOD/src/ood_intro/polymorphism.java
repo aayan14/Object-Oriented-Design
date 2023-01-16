@@ -1,6 +1,6 @@
 package ood_intro;
 
-public class third {
+public class polymorphism {
 	public static void main(String[] args) {
 		
 		Calculator calc1 = new Calculator();
