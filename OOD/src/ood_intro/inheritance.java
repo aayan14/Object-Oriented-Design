@@ -1,6 +1,6 @@
 package ood_intro;
 
-public class second {
+public class inheritance {
 
 	public static void main(String[] args) {
 		
